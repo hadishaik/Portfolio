@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-font {
+  font-family: "Raleway", sans-serif;
+  color: #cc00ff;
+}
+
+.custom-font2 {
+  font-family: "Exo 2", sans-serif;
+}
+
+/* .outer-headings {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* h1 {
+  font-size: 45px;
+} */
+
+.inner-headings {
+  border: 0px solid #ddd;
+  height: 50px;
+
+  line-height: 50px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.inner-headings span {
+  position: relative;
+  animation: animation 10s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  20% {
+    top: 0;
+  }
+
+  25% {
+    top: -50px;
+  }
+
+  45% {
+    top: -50px;
+  }
+
+  50% {
+    top: -100px;
+  }
+
+  70% {
+    top: -100px;
+  }
+
+  75% {
+    top: -150px;
+  }
+
+  95% {
+    top: -150px;
+  }
+}
+
+.bg-img {
+  background-image: url("/bgimage1.png");
+}
+
+.bg-img2 {
+  background-image: url("/bgimage3.jpg");
+}
+
+.bg-img3 {
+  background-image: url("/bg.jpg");
+}
+
+.custom-color {
+  background-color: #190a4d;
+}
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.skill h5 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill p {
+  color: #888888;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
